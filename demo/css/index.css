@@ -1,0 +1,172 @@
+body{
+	padding: 10px;
+	background-color: #ccc;
+}
+
+.framework{
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+}
+
+#dTalk{
+	width: 700px;
+	height: 550px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: white;
+	padding: 5px;
+}
+
+#dContacts{
+	width: 230px;
+	height:99%;
+	/*border-right: 1px solid #ccc;*/
+	float: left;
+}
+
+.badge{
+	margin-left: 5px;
+}
+
+#dCustomers{
+	width: 98%;
+	height: 500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+/*	background-color: green;*/
+}
+
+.customer{
+	width: 99%;
+	height:30px;
+	line-height: 30px;
+	/*background-color: red;*/
+	border-bottom: 1px solid #ccc;
+	padding-left: 5px;
+}
+
+.customer:hover{
+	cursor:pointer;
+	color: blue;
+}
+
+.customer .close{
+	margin-top: 3px;
+}
+
+.customer .close:hover{
+	color: red;
+}
+
+.face{
+	width: 36px;
+	height: 36px;
+	margin: 6px;
+	border: 1px solid #ccc;
+}
+
+
+#dMsgPanel{
+	width: 450px;
+	height:99%;
+	margin-left: 5px;
+	float: left;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+#dCustomerBar{
+	width: 449px;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#lblCustomerName{
+	font-size: 18px;
+}
+
+
+#dMsg{
+	width: 449px;
+	height: 335px;
+	padding-left: 10px;
+	border-bottom: 1px solid #ccc;
+	overflow: auto;
+}
+
+.yourmsg{
+	margin-top: 10px;
+}
+
+.mymsg{
+	margin-top: 10px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+
+.msg-time{
+	margin-top: 10px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #ccc;
+}
+
+.msg-content{
+	max-width: 350px;
+	word-break:break-all;
+	padding: 5px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.mymsg .msg-content{
+	background-color: #99CC00;
+}
+
+
+#dEditMsg{
+	width: 449px;
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+}
+
+#txtMsg{
+	border-radius: 0px;
+	border: none;
+	margin: 0px 2px 0px 0px; 
+	width: 448px; 
+	height: 99px;
+}
+
+#dOption{
+	text-align: right;
+	padding-top: 8px;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
