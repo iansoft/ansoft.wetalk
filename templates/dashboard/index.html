@@ -7,19 +7,24 @@
 	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ STATIC_URL }}js/index.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/options.js"></script>
 </head>
 <body>
 	<div id="dFramework" class="framework">
 		<div id="dTalk">
 			<div id="dContacts">
 				<ul class="nav nav-tabs">
-				  <li role="presentation" class="active">
-				  	<a href="#">
+				  <li id="liMessage" role="presentation" class="active">
+				  	<a id="btnMessage" href="#">
 				  		Message
 				  		<span id="spMsgCount" class="badge">3</span>
 				  	</a>
 				  </li>
-				  <li role="presentation" ><a href="#">Contact</a></li>
+				  <li id="liContact" role="presentation" >
+                      <a id="btnContact" href="#">
+                          Contact
+                      </a>
+                  </li>
 				</ul>
 				<div id="dCustomers">
 					<!-- load the contacts -->
@@ -27,7 +32,7 @@
 			</div>
 			<div id="dMsgPanel">
 				<div id="dCustomerBar">
-					<label id="lblCustomerName">Jack</label>
+					<label id="lblCustomerName"></label>
 				</div>
 
 				<div id="dMsg">
@@ -38,6 +43,8 @@
 				</div>
 				<div id="dOption">
 					<button id="btnSendMsg" class="btn btn-primary">Send</button>
+                    <button id="btnAddUser" class="btn btn-primary">Add User</button>
+                    <button id="btnReset" class="btn btn-primary">Reset</button>
 				</div>
 			</div>
 		</div>
