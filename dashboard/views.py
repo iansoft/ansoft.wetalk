@@ -59,10 +59,59 @@ def receive_message(request):
     resp_data = {"messages": messages_dict}
     return JsonResponse(resp_data)
 
+def receive_session(request):
+    current_chat_id = 29
+    t_id = 1
+    sessions = msg_api.receive_session(current_chat_id,t_id)
+    sessions_dict = []
+    print "====get the user===="
+    for session in sessions['sessions']:
+        is_use_exist = False
+        for user in sessions_dict:
+            if session[2] == user["id"]:
+                is_use_exist = True
+                break
+        if  is_use_exist == True:
+            continue
+        else:
+            tmp_user = {
+                "id":session[2],
+                "name":session[1],
+                "msg":[]
+            }
+            sessions_dict.append(tmp_user)
+
+    print "====get the message===="
+    for session in sessions['sessions']:
+        for user in sessions_dict:
+            if session[2] == user["id"]:
+                tmp_msg = {
+                    "id":session[0],
+                    "msg":session[4],
+                    "time":session[5],
+                    "status":session[6]
+                }
+                user["msg"].append(tmp_msg)
+
+    print sessions_dict
+
+    resp_data = {"sessions": sessions_dict}
+    return JsonResponse(resp_data)
+
 def set_message_status(request):
     data = json.loads(request.body)
     #execute update the msg status
     msg_api.set_msg_status(data["msg_id_list"],data["status"])
+    vsm_status_dict = {"status": "OK"}
+    return JsonResponse(vsm_status_dict)
+
+def set_message_status2(request):
+    data = json.loads(request.body)
+    #execute update the msg status
+    f_id = int(data["f_id"])
+    t_id = int(data["t_id"])
+    status = int(data["status"])
+    msg_api.set_msg_status2(f_id,t_id,status)
     vsm_status_dict = {"status": "OK"}
     return JsonResponse(vsm_status_dict)
 

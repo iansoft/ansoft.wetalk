@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31295ac8-e371-4acf-b7e2-54732ec4d6ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/message.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/options.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dashboard/index.html" afterPath="$PROJECT_DIR$/templates/dashboard/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/index.js" afterPath="$PROJECT_DIR$/static/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/message.py" afterPath="$PROJECT_DIR$/api/message.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/urls.py" afterPath="$PROJECT_DIR$/dashboard/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/user.py" afterPath="$PROJECT_DIR$/api/user.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/views.py" afterPath="$PROJECT_DIR$/dashboard/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wetalk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,6 +39,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="message.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/message.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="810">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1434649614000" expanded="true" signature="159:244" placeholder="INSERT INTO ..." />
+                <marker date="1434649614000" expanded="true" signature="428:504" placeholder="SELECT id,f,..." />
+                <marker date="1434649614000" expanded="true" signature="802:1001" placeholder="SELECT m.id,..." />
+                <marker date="1434649614000" expanded="true" signature="1240:1281" placeholder="UPDATE messa..." />
+                <marker date="1434649614000" expanded="true" signature="1240:1291" placeholder="UPDATE messa..." />
+                <marker date="1434649614000" expanded="true" signature="1240:1292" placeholder="UPDATE messa..." />
+                <marker date="1434649614000" expanded="true" signature="1490:1532" placeholder="UPDATE messa..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1430" max-vertical-offset="2010">
+              <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/user.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,67 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/message.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1434637362000" expanded="true" signature="69:353" placeholder="..." />
-                <marker date="1434637362000" expanded="true" signature="159:244" placeholder="INSERT INTO ..." />
-                <marker date="1434637362000" expanded="true" signature="383:643" placeholder="..." />
-                <marker date="1434637362000" expanded="true" signature="428:490" placeholder="SELECT id,Fr..." />
-                <marker date="1434637362000" expanded="true" signature="428:503" placeholder="SELECT id,Fr..." />
-                <marker date="1434637362000" expanded="true" signature="684:887" placeholder="..." />
-                <marker date="1434637362000" expanded="true" signature="764:806" placeholder="UPDATE messa..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1275">
-              <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7064677" vertical-offset="691" max-vertical-offset="1275">
-              <caret line="234" column="1" selection-start-line="234" selection-start-column="1" selection-end-line="234" selection-end-column="1" />
-              <folding>
-                <element signature="e#898#1030#0" expanded="false" />
-                <element signature="e#1093#1191#0" expanded="false" />
-                <element signature="e#1246#1392#0" expanded="false" />
-                <element signature="e#1442#1677#0" expanded="false" />
-                <element signature="e#1728#1958#0" expanded="false" />
-                <element signature="n#!!block;n#CheckSession#0" expanded="false" />
-                <element signature="n#!!block;n#SendMessage#0" expanded="false" />
-                <element signature="n#!!block;n#ReceiveMessage#0" expanded="false" />
-                <element signature="n#!!block;n#ShowMessages#0" expanded="false" />
-                <element signature="n#!!block;n#SetMessagesStatus#0" expanded="false" />
-                <element signature="n#!!block;n#SelecteUser#0" expanded="false" />
-                <element signature="n#!!block;n#LoadContacts#0" expanded="false" />
-                <element signature="n#!!block;n#ShowWarning#0" expanded="false" />
-                <element signature="n#!!block;n#CloseWarning#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="8" column="103" selection-start-line="8" selection-start-column="103" selection-end-line="8" selection-end-column="103" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -132,9 +104,23 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dashboard/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="540" max-vertical-offset="990">
-              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+            <state vertical-scroll-proportion="-2.372549" vertical-offset="509" max-vertical-offset="990">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="46" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32" vertical-offset="1740" max-vertical-offset="5580">
+              <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+              <folding>
+                <element signature="e#1034#1166#0" expanded="false" />
+                <element signature="e#1765#2000#0" expanded="false" />
+                <element signature="e#2051#2281#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,12 +139,12 @@
         <option value="$PROJECT_DIR$/IO/users.py" />
         <option value="$PROJECT_DIR$/wetalk/urls.py" />
         <option value="$PROJECT_DIR$/static/css/index.css" />
-        <option value="$PROJECT_DIR$/dashboard/urls.py" />
-        <option value="$PROJECT_DIR$/api/message.py" />
         <option value="$PROJECT_DIR$/static/js/options.js" />
-        <option value="$PROJECT_DIR$/dashboard/views.py" />
         <option value="$PROJECT_DIR$/api/user.py" />
         <option value="$PROJECT_DIR$/templates/dashboard/index.html" />
+        <option value="$PROJECT_DIR$/dashboard/urls.py" />
+        <option value="$PROJECT_DIR$/dashboard/views.py" />
+        <option value="$PROJECT_DIR$/api/message.py" />
         <option value="$PROJECT_DIR$/static/js/index.js" />
       </list>
     </option>
@@ -643,7 +629,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32776934" sideWeight="0.37770382" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.37770382" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -662,6 +648,28 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32776934" sideWeight="0.37770382" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32776934" sideWeight="0.62229615" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28369385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -680,7 +688,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -716,20 +726,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2325">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <element signature="e#898#1030#0" expanded="false" />
-            <element signature="e#1093#1191#0" expanded="false" />
-            <element signature="e#1246#1392#0" expanded="false" />
-            <element signature="e#1442#1677#0" expanded="false" />
-            <element signature="e#1728#1958#0" expanded="false" />
-            <element signature="n#!!block;n#CheckSession#0" expanded="false" />
-            <element signature="n#!!block;n#SendMessage#0" expanded="false" />
-            <element signature="n#!!block;n#ReceiveMessage#0" expanded="false" />
-            <element signature="n#!!block;n#ShowMessages#0" expanded="false" />
-            <element signature="n#!!block;n#SetMessagesStatus#0" expanded="false" />
-            <element signature="n#!!block;n#SelecteUser#0" expanded="false" />
-            <element signature="n#!!block;n#LoadContacts#0" expanded="false" />
-            <element signature="n#!!block;n#ShowWarning#0" expanded="false" />
-            <element signature="n#!!block;n#CloseWarning#0" expanded="false" />
+            <element signature="e#1034#1166#0" expanded="false" />
+            <element signature="e#1765#2000#0" expanded="false" />
+            <element signature="e#2051#2281#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -863,37 +862,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1434637362000" expanded="true" signature="69:353" placeholder="..." />
-            <marker date="1434637362000" expanded="true" signature="159:244" placeholder="INSERT INTO ..." />
-            <marker date="1434637362000" expanded="true" signature="383:643" placeholder="..." />
-            <marker date="1434637362000" expanded="true" signature="428:490" placeholder="SELECT id,Fr..." />
-            <marker date="1434637362000" expanded="true" signature="428:503" placeholder="SELECT id,Fr..." />
-            <marker date="1434637362000" expanded="true" signature="684:887" placeholder="..." />
-            <marker date="1434637362000" expanded="true" signature="764:806" placeholder="UPDATE messa..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="1275">
-          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1430" max-vertical-offset="2010">
+          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="810">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1434649614000" expanded="true" signature="159:244" placeholder="INSERT INTO ..." />
+            <marker date="1434649614000" expanded="true" signature="428:504" placeholder="SELECT id,f,..." />
+            <marker date="1434649614000" expanded="true" signature="802:1001" placeholder="SELECT m.id,..." />
+            <marker date="1434649614000" expanded="true" signature="1240:1281" placeholder="UPDATE messa..." />
+            <marker date="1434649614000" expanded="true" signature="1240:1291" placeholder="UPDATE messa..." />
+            <marker date="1434649614000" expanded="true" signature="1240:1292" placeholder="UPDATE messa..." />
+            <marker date="1434649614000" expanded="true" signature="1490:1532" placeholder="UPDATE messa..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="8" column="103" selection-start-line="8" selection-start-column="103" selection-end-line="8" selection-end-column="103" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
@@ -902,31 +901,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dashboard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="540" max-vertical-offset="990">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state vertical-scroll-proportion="-2.372549" vertical-offset="509" max-vertical-offset="990">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7064677" vertical-offset="691" max-vertical-offset="1275">
-          <caret line="234" column="1" selection-start-line="234" selection-start-column="1" selection-end-line="234" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.32" vertical-offset="1740" max-vertical-offset="5580">
+          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
           <folding>
-            <element signature="e#898#1030#0" expanded="false" />
-            <element signature="e#1093#1191#0" expanded="false" />
-            <element signature="e#1246#1392#0" expanded="false" />
-            <element signature="e#1442#1677#0" expanded="false" />
-            <element signature="e#1728#1958#0" expanded="false" />
-            <element signature="n#!!block;n#CheckSession#0" expanded="false" />
-            <element signature="n#!!block;n#SendMessage#0" expanded="false" />
-            <element signature="n#!!block;n#ReceiveMessage#0" expanded="false" />
-            <element signature="n#!!block;n#ShowMessages#0" expanded="false" />
-            <element signature="n#!!block;n#SetMessagesStatus#0" expanded="false" />
-            <element signature="n#!!block;n#SelecteUser#0" expanded="false" />
-            <element signature="n#!!block;n#LoadContacts#0" expanded="false" />
-            <element signature="n#!!block;n#ShowWarning#0" expanded="false" />
-            <element signature="n#!!block;n#CloseWarning#0" expanded="false" />
+            <element signature="e#1034#1166#0" expanded="false" />
+            <element signature="e#1765#2000#0" expanded="false" />
+            <element signature="e#2051#2281#0" expanded="false" />
           </folding>
         </state>
       </provider>
