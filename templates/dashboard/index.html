@@ -7,9 +7,17 @@
 	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ STATIC_URL }}js/index.js"></script>
-    <script type="text/javascript" src="{{ STATIC_URL }}js/options.js"></script>
 </head>
 <body>
+    {% csrf_token %}
+    <div class="row">
+        <div class="col-xs-2">
+             <label>ID</label>
+            <input id="txtMyID" type="text" class="form-control">
+        </div>
+    </div>
+
+
 	<div id="dFramework" class="framework">
 		<div id="dTalk">
 			<div id="dContacts">

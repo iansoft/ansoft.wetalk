@@ -2,7 +2,8 @@ from django.db import connection
 
 def load_users():
     cursor = connection.cursor()
-    cursor.execute("SELECT * FROM user WHERE id != 1")
+    #cursor.execute("SELECT * FROM user WHERE id != 1")
+    cursor.execute("SELECT * FROM user")
     users = cursor.fetchall()
     users_dict = {"users": users}
     return users_dict
@@ -21,6 +22,7 @@ def create_user(num):
         cursor.execute(sql)
 
 
-def reset_user():
+def reset():
     cursor = connection.cursor()
     cursor.execute("DELETE FROM user WHERE id != 1")
+    cursor.execute("DELETE FROM message")
